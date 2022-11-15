@@ -1,0 +1,3 @@
+minikube service springboottest-service --url
+
+##hitting above command will give u url from which u can access the pod...
