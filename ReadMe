@@ -1,3 +1,7 @@
 minikube service springboottest-service --url
 
 ##hitting above command will give u url from which u can access the pod...
+
+
+kubectl apply -f deploy.yml   # command for apply deploy yml
+kubectl apply -f service.yml   #  command for apply service yml
