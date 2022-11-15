@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: springboottest-service
+  namespace: zpz665
 spec:
   type: NodePort
   selector:
